@@ -1,0 +1,95 @@
+﻿<!doctype html>
+<html lang="he">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MosheTheFish</title>
+    <meta name="description" content="mosheTheFish" />
+    <meta name="keywords" content="game, Moshe, the, fish" />
+    <meta name="author" content="May Elazar Ori Allon Liat Ben Yossef" />
+
+    <!-- CSS -->
+    <link rel="icon" href="images1/moshe-icon.png">
+
+    <link href="styles/myStyle.css" rel="stylesheet" />
+
+    <!-- Scripts -->
+    <!--jQuery library-->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+    <!--הקוד שמפעיל את תפריט הניווט-->
+    <script src="jScripts/myScript.js"></script>
+
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <!--קישור לדף עצמו כדי להתחיל את המשחק מחדש בלחיצה על הלוגו-->
+            <a href="indextest.html">
+                <img id="logo" src="images1/moshe-icon.png" />
+                <p>משה הדג</p>
+            </a>
+            <!--תפריט הניווט בראש העמוד-->
+            <nav>
+                <ul>
+                    <li><a class="about">אודות</a></li>
+                    <li><a class="howToPlay">איך משחקים?</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div id="aboutDiv" class="popUp bounceInDown hide">
+            <a class="closeAbout">X</a>
+            <p>
+                <span>אפיון ופיתוח:</span>
+                מאי אלעזר, אורי אלון וליאת בן יוסף
+            </p>
+            <p>
+                אופיין ופותח במסגרת פרויקט בקורסים: <br />
+                סביבות לימוד אינטראקטיביות 1 + סביבות אינטראקטיביות 1, תש"פ
+                <br />
+
+                קרידיטים:
+                <br />
+                התמונות נלקחו מהאתרים:
+                <br />
+
+                <a href="https://www.freepik.com/home" target="_blank">freepik</a>
+                <br />
+                <a href="https://www.pixabay.com/">pixabay</a>
+                <br />
+                הסאונד נקלח מהאתרים:
+                <br />
+
+                <a href="https://www.bensound.com/">bensound</a>
+                <br />
+                <a href="http://www.orangefreesounds.com">orangefreesounds</a>
+            </p>
+            <img id="hit" src="images1/50 logo HIT-01.png" />
+           
+                <a href="https://www.hit.ac.il/telem/overview" target="_blank">הפקולטה לטכנולוגיות למידה</a>
+                <p>מכון טכנולוגי חולון</p>
+      
+
+        </div>
+        <div id="howToPlayDiv" class="popUp bounceInDown hide">
+            <a class="closeHowToPlay">X</a>
+            <p>
+                הגעת לבית של מקס, בבקשה עזור למקס להאכיל את משה הדג. 
+                <BR />  
+                אך הזהר במה אתה מאכיל אותו! 
+            </p>
+                <img id="instruction" src="images1/instruction.png" alt="הוראות משחק: הזה את הדג למעלה ולמטה בעזרת מקשי החיצים. לאכילת התשובה לחץ על מקש הרווח.
+              השתמש בחיצי המקלדת ימינה ושמאלה להאצת המהירות" />
+                
+           
+       
+        </div>
+        <div id="gameArea" class="">
+            <!--src = הקישור של דף המשחק שלכם (לא קובץ האנימייט)-->
+            <iframe id="gameIframe" src="mosheTheFish_OriAlon_LiatBenYosef_MayElazar.html" frameBorder="0" allowfullscreen="">Browser not compatible.</iframe>
+        </div>
+    </div>
+</body>
+
+</html>
